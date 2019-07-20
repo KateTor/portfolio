@@ -1,0 +1,50 @@
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: .7rem;
+}
+
+.container {
+    display: block;
+}
+
+.introduction {
+    background-color: blue;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @include breakpoint(sm) {
+        position: absolute;
+    }
+
+    .nameContainer {
+        width: 15rem;
+
+        @include breakpoint(sm) {
+            position: relative;
+            margin-top: 5rem;
+            margin-left: 2rem;
+            width: 100%;
+            text-align: start;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .introductionContainer {
+        width: 15rem;
+    }
+}

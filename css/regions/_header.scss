@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        margin-top: .5rem;
+        margin-right: .5rem;
+        padding: 1rem;
+        transition: .25s ease-in-out;
+        text-decoration: none;
+        color: lightslategray;
+
+        &:hover {
+            text-decoration-line: underline;
+            color: whitesmoke;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.portfolio {
+    background-color: skyblue;
+    width: 100%;
+
+    .portfolioPiece {
+        background-color: red;
+    }
+
+    // @include breakpoint(sm) {
+    //     display: flex;
+    // }
+
+}
