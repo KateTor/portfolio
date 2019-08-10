@@ -15,18 +15,19 @@ p {
 }
 
 .introduction {
-    background-color: blue;
+    background: url('../../media/headerbkgd.png')no-repeat center center;
+    background-size:contain;
     width: 100%;
-    height: 10rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    @include breakpoint(sm) {
-        position: absolute;
-    }
+    // @include breakpoint(sm) {
+    //     position: absolute;
+    // }
 
     .nameContainer {
         width: 15rem;
@@ -45,6 +46,7 @@ p {
     }
 
     .introductionContainer {
+        margin-top: 10rem;
         width: 15rem;
     }
 }
