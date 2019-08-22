@@ -1,13 +1,19 @@
-.portfolio {
-    background-color: skyblue;
+.portfolio{
+    // background-color: skyblue;
     width: 100%;
+    padding: 25px;
+}
 
-    .portfolioPiece {
-        background-color: red;
-    }
+a {
+    margin-top: 1rem;
+    margin-right: .5rem;
+    padding: 1rem;
+    transition: .25s ease-in-out;
+    text-decoration: none;
+    color: whitesmoke;
 
-    // @include breakpoint(sm) {
-    //     display: flex;
-    // }
-
+        &:hover {
+            text-decoration-line: underline;
+            color: lightgrey;
+        }
 }

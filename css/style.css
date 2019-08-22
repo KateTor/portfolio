@@ -352,21 +352,32 @@ li {
 }
 
 body {
-  background-color: purple;
+  background: url(../media/code-flowers.png);
+  background-position-x: center;
+  background-position-y: top;
   color: whitesmoke;
 }
 
-.responsiveIMG {
+.portfolio {
   width: 100%;
-  height: auto;
+  padding: 25px;
 }
 
-.portfolio {
-  background-color: skyblue;
-  width: 100%;
+a {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  transition: 0.25s ease-in-out;
+  text-decoration: none;
+  color: whitesmoke;
 }
-.portfolio .portfolioPiece {
-  background-color: red;
+a:hover {
+  text-decoration-line: underline;
+  color: lightgrey;
+}
+
+.contact {
+  padding-top: 5rem;
 }
 
 footer {
@@ -410,8 +421,6 @@ p {
 }
 
 .introduction {
-  background: url("../../media/headerbkgd.png") no-repeat center center;
-  background-size: contain;
   width: 100%;
   height: 25rem;
   display: flex;
@@ -419,6 +428,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 5rem;
 }
 .introduction .nameContainer {
   width: 15rem;
@@ -433,11 +443,17 @@ p {
   }
 }
 .introduction .nameContainer h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .introduction .introductionContainer {
   margin-top: 10rem;
   width: 15rem;
+}
+.introduction .introductionContainer h3 {
+  font-size: 1.5rem;
+}
+.introduction .introductionContainer p {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

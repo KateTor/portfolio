@@ -13,11 +13,14 @@ li {
 }
 
 body {
-    background-color: purple;
+    background: url(../media/code-flowers.png);
+    background-position-x: center;
+    background-position-y: top;
+    // background-color: #6A054B;
     color: whitesmoke;
 }
 
-.responsiveIMG {
-    width: 100%;
-    height: auto;
-}
+// .responsiveIMG {
+//     width: 100%;
+//     height: auto;
+// }

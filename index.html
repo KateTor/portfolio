@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kate Tortora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <a href="#">Resume</a>
-        <a href="#">Porfolio</a>
+        <a href="https://github.com/KateTor">Porfolio</a>
         <a href="#">Contact</a>
-    </header>
+    </header> -->
 
     <main>
         <div class="container">
@@ -29,50 +30,65 @@
                     <h3>About Me</h3>
                     <!-- <hr class="horizontalLine"> -->
                     <p>
-                        A paragraph about me
+                        I'm new to coding and software development but I love to learn. No matter what task is at hand, I will use every resource I have to get the job done.
                     </p>
 
                 </div>
             </section>
 
 
-            <section class="portfolio">
+            <section class="portfolio text-center">
                 <h3>Portfolio</h3>
-                <!-- <hr class="horizontalLine"> -->
-                <div class="portfolioPiece">
-                    <a href="#"><img src="" alt="" class="responsiveIMG">
-                        <h4>Pup Ups</h4>
-                        <h5>Careers In Code Capstone Project</h5>
-                        <!-- <hr class="porfolioHorizontalLine"> -->
-                    </a>
-                </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <a href="https://github.com/KateTor">
+                                    <span>
+                                        Github Profile
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <a href="https://www.youtube.com/playlist?list=PL_PpuM9IAfSt9SV0CUXLHNXyhbtyhrAL6">
+                                    <span>
+                                        YouTube & TV Reels
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <a href="#">
+                                    <span>
+                                        Photography Coming Soon
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="portfolioPiece">
-                    <a href="#"><img src="" alt="" class="responsiveIMG">
-                        <h4>Git Repository</h4>
-                        <h5>Additional Projects</h5>
-                        <!-- <hr class="porfolioHorizontalLine"> -->
-                    </a>
-                </div>
-
-                <div class="portfolioPiece">
-                    <a href="#"><img src="" alt="" class="responsiveIMG">
-                        <h4>Television Portfolio</h4>
-                        <h5>Previous Work</h5>
-                        <!-- <hr class="porfolioHorizontalLine"> -->
-                    </a>
-                </div>
-
-                <div class="portfolioPiece">
-                    <a href="#"><img src="" alt="" class="responsiveIMG">
-                        <h4>Photography</h4>
-                        <h5>One of My Hobbies</h5>
-                    </a>
-                </div>
             </section>
 
             <section class="contact">
-                Contact Box
+                <div class="container">
+                    <form action="https://mailthis.to/tortorakate@gmail.com" 
+                          method="POST">
+                        <div class="form-group">
+                            <label for="name" hidden>Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" hidden>Email</label>
+                            <input type="text" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" hidden>Message</label>
+                            <input
+                                type="text-area"
+                                class="form-control" id="message" placeholder="Please Leave Me A Message Here">
+                        </div>
+                        <input type="hidden" name="_honeypot" value="">
+                        <button type="submit" class="btn btn-light btn-sm">Submit</button>
+                        </form>
+                </div>
             </section>
         </div>
     </main>
