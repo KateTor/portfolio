@@ -376,6 +376,10 @@ a:hover {
   color: lightgrey;
 }
 
+.row {
+  padding-top: 2rem;
+}
+
 .contact {
   padding-top: 5rem;
   padding-bottom: 5rem;
