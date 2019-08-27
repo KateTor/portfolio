@@ -440,6 +440,7 @@ p {
 }
 .introduction .nameContainer {
   width: 15rem;
+  margin-top: 4rem;
 }
 @media (min-width: 768px) {
   .introduction .nameContainer {
@@ -455,7 +456,7 @@ p {
 }
 .introduction .introductionContainer {
   margin-top: 10rem;
-  width: 15rem;
+  width: 30rem;
 }
 .introduction .introductionContainer h3 {
   font-size: 1.5rem;

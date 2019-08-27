@@ -29,7 +29,7 @@ p {
 
     .nameContainer {
         width: 15rem;
-
+        margin-top: 4rem;
         @include breakpoint(sm) {
             position: relative;
             margin-top: 5rem;
@@ -45,7 +45,7 @@ p {
 
     .introductionContainer {
         margin-top: 10rem;
-        width: 15rem;
+        width: 30rem;
 
         h3 {
             font-size: 1.5rem;
